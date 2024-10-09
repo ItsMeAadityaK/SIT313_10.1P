@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.welcome-email {
+    background-color: #d3d3d3;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 700px;
+    width: 100%;
+}
+
+.welcome-email form {
+    display: flex;
+    white-space: nowrap;
+    align-items: center;
+    width: 100%;
+}
+
+.welcome-email label {
+    margin-right: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+}
+
+.welcome-email input[type="email"] {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #000;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.welcome-email button {
+    background-color: #a9a9a9;
+    color: #000; 
+    border: 1px solid #000;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
